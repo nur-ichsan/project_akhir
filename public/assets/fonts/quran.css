@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'simbrl';
+    src: url('simbrl.ttf');
+}
+
+@font-face {
+    font-family: 'LPTMQ';
+    src: url('LPMQ.otf');
+}
+
+
+#viewScreen {
+    border: 1px solid blue;
+    background-color: yellow;
+    vertical-align:baseline;
+    padding: 5px;
+    width: 98%;
+}
+
+
+.textinput {
+    float: left;
+    width: 98%;
+    min-height: 150px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+    font-family: LPTMQ;
+    direction: rtl;
+    color: blue;
+    font-size: 20pt;
+    padding-right: 10px;
+  
+}
+
+#brl {
+    font-size: 20px;
+    font-family: simbrl;
+    padding: 5px;
+    width: 98%;
+    border: 1px solid blue;
+}
+
+#unicode {
+    border: 1px solid blue;
+    vertical-align:baseline;
+    font-family: LPTMQ;
+    direction: rtl;
+    font-size: 30px;
+    padding: 5px;
+    width: 98%;
+}
+
+#awas{
+font-family: 'Courier New', Courier, monospace;
+background-color: yellow;
+width: 98%;
+}
